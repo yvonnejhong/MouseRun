@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "C:\\src\\MouseRun\\public\\character",
+  "images": [
+    {
+      "name": "flame1.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/flame1.png",
+      "folder": ""
+    },
+    {
+      "name": "flame1@2x.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/flame1@2x.png",
+      "folder": ""
+    },
+    {
+      "name": "flame2.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/flame2.png",
+      "folder": ""
+    },
+    {
+      "name": "flame2@2x.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/flame2@2x.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_dead01.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_dead01.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_dead01@2x.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_dead01@2x.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_dead02.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_dead02.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_dead02@2x.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_dead02@2x.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_fall01.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_fall01.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_fall01@2x.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_fall01@2x.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_fly.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_fly.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_run01.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_run01.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_run01@2x.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_run01@2x.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_run02.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_run02.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_run02@2x.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_run02@2x.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_run03.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_run03.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_run03@2x.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_run03@2x.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_run04.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_run04.png",
+      "folder": ""
+    },
+    {
+      "name": "rocketmouse_run04@2x.png",
+      "path": "C:/Users/Administrator/Downloads/rocketmouse_animations/rocketmouse_run04@2x.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "rocket-mouse",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": false,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "Phaser 3",
+    "fileName": "pack-result",
+    "savePath": "C:\\src\\MouseRun\\public\\character",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": false,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "OptimalPacker",
+    "packerMethod": "Automatic"
+  }
+}

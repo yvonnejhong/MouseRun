@@ -1,0 +1,418 @@
+{
+	"textures": [
+		{
+			"image": "rocket-mouse",
+			"format": "RGBA8888",
+			"size": {
+				"w": 746,
+				"h": 712
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "rocketmouse_dead01@2x.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 268,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 15,
+						"w": 228,
+						"h": 231
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 228,
+						"h": 231
+					}
+				},
+				{
+					"filename": "rocketmouse_run02@2x.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 268,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 207,
+						"h": 244
+					},
+					"frame": {
+						"x": 228,
+						"y": 0,
+						"w": 207,
+						"h": 244
+					}
+				},
+				{
+					"filename": "rocketmouse_run01@2x.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 268,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 7,
+						"w": 210,
+						"h": 238
+					},
+					"frame": {
+						"x": 0,
+						"y": 231,
+						"w": 210,
+						"h": 238
+					}
+				},
+				{
+					"filename": "rocketmouse_run04@2x.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 268,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 207,
+						"h": 241
+					},
+					"frame": {
+						"x": 435,
+						"y": 0,
+						"w": 207,
+						"h": 241
+					}
+				},
+				{
+					"filename": "rocketmouse_run03@2x.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 268,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 6,
+						"w": 207,
+						"h": 238
+					},
+					"frame": {
+						"x": 435,
+						"y": 241,
+						"w": 207,
+						"h": 238
+					}
+				},
+				{
+					"filename": "rocketmouse_fall01@2x.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 268,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 216,
+						"h": 209
+					},
+					"frame": {
+						"x": 210,
+						"y": 244,
+						"w": 216,
+						"h": 209
+					}
+				},
+				{
+					"filename": "rocketmouse_dead02@2x.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 268,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 84,
+						"w": 262,
+						"h": 163
+					},
+					"frame": {
+						"x": 0,
+						"y": 469,
+						"w": 262,
+						"h": 163
+					}
+				},
+				{
+					"filename": "rocketmouse_dead01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 115,
+						"h": 116
+					},
+					"frame": {
+						"x": 262,
+						"y": 453,
+						"w": 115,
+						"h": 116
+					}
+				},
+				{
+					"filename": "rocketmouse_fly.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 110,
+						"h": 119
+					},
+					"frame": {
+						"x": 377,
+						"y": 479,
+						"w": 110,
+						"h": 119
+					}
+				},
+				{
+					"filename": "rocketmouse_run02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 104,
+						"h": 122
+					},
+					"frame": {
+						"x": 487,
+						"y": 479,
+						"w": 104,
+						"h": 122
+					}
+				},
+				{
+					"filename": "rocketmouse_run01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 105,
+						"h": 120
+					},
+					"frame": {
+						"x": 591,
+						"y": 479,
+						"w": 105,
+						"h": 120
+					}
+				},
+				{
+					"filename": "rocketmouse_run04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 104,
+						"h": 121
+					},
+					"frame": {
+						"x": 642,
+						"y": 0,
+						"w": 104,
+						"h": 121
+					}
+				},
+				{
+					"filename": "rocketmouse_run03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 104,
+						"h": 119
+					},
+					"frame": {
+						"x": 642,
+						"y": 121,
+						"w": 104,
+						"h": 119
+					}
+				},
+				{
+					"filename": "rocketmouse_fall01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 108,
+						"h": 105
+					},
+					"frame": {
+						"x": 262,
+						"y": 569,
+						"w": 108,
+						"h": 105
+					}
+				},
+				{
+					"filename": "rocketmouse_dead02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 42,
+						"w": 131,
+						"h": 82
+					},
+					"frame": {
+						"x": 591,
+						"y": 599,
+						"w": 131,
+						"h": 82
+					}
+				},
+				{
+					"filename": "flame2@2x.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 88,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 78,
+						"h": 114
+					},
+					"frame": {
+						"x": 370,
+						"y": 598,
+						"w": 78,
+						"h": 114
+					}
+				},
+				{
+					"filename": "flame1@2x.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 88,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 9,
+						"w": 62,
+						"h": 82
+					},
+					"frame": {
+						"x": 448,
+						"y": 601,
+						"w": 62,
+						"h": 82
+					}
+				},
+				{
+					"filename": "flame2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 4,
+						"w": 40,
+						"h": 58
+					},
+					"frame": {
+						"x": 510,
+						"y": 601,
+						"w": 40,
+						"h": 58
+					}
+				},
+				{
+					"filename": "flame1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 4,
+						"w": 32,
+						"h": 42
+					},
+					"frame": {
+						"x": 550,
+						"y": 601,
+						"w": 32,
+						"h": 42
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}
