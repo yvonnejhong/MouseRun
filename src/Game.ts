@@ -77,7 +77,8 @@ export default class GameScene extends Phaser.Scene {
     obj2: Phaser.GameObjects.GameObject
   )
   {
-    console.log('overlap!')
+   const mouse = obj2 as RocketMouse
+  mouse.kill()
   }
   private wrapMouseHole() {
     const scrollX = this.cameras.main.scrollX;

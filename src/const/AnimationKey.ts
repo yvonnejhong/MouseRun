@@ -4,4 +4,5 @@ export const enum AnimationKeys
     RocketFlameOn = 'rocket-flame-on',
     RocketMouseFly = 'rocket-mouse-fly',
     RocketMouseDown = 'rocket-mouse-down',
+    RocketMouseDead = 'rocket-mouse-dead',
 }
