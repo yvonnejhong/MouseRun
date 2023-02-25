@@ -1,5 +1,6 @@
 import Phaser from "phaser";
 import { AnimationKeys } from "../const/AnimationKey";
+import SceneKeys from "../const/SceneKeys";
 import { TextureKeys } from "../const/TextureKeys";
 
 enum MouseState
@@ -80,7 +81,7 @@ export default class RocketMouse extends Phaser.GameObjects.Container
             }
             case MouseState.Killed:
             {
-                body.velocity.x *= 0.98
+                body.velocity.x *= 0.975
                 if (body.velocity.x <= 50)
                 {
                     this.mouseState = MouseState.Dead
@@ -91,6 +92,7 @@ export default class RocketMouse extends Phaser.GameObjects.Container
             case MouseState.Dead:
             {
                 body.setVelocity(0,0)
+                this.scene.scene.run(SceneKeys.GameOver)
                 break
             }
         }
