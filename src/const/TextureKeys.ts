@@ -9,4 +9,5 @@ export const enum TextureKeys
     Bookcase2 = 'bookcase1',
     LaserEnd = 'laser-end',
     LaserMiddle = 'laser-middle',
+    Coin = 'coin',
 }

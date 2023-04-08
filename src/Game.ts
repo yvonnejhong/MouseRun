@@ -7,8 +7,10 @@ import LaserObstacle from "./game/LaserObstacle";
 export default class GameScene extends Phaser.Scene {
   constructor() {
     super("game");
-  }
-
+  }    
+  
+  
+  private coins!: Phaser.Physics.Arcade.StaticGroup;
   private background!: Phaser.GameObjects.TileSprite;
   private mouseHole!: Phaser.GameObjects.Image;
   private window1!: Phaser.GameObjects.Image;
@@ -16,8 +18,12 @@ export default class GameScene extends Phaser.Scene {
   private bookcase1!: Phaser.GameObjects.Image;
   private bookcase2!: Phaser.GameObjects.Image;
   private laserObstacle!: LaserObstacle;
+  private scoreLabel!: Phaser.GameObjects.Text;
+  private score = 0;
   preload() {}
-
+  init() {
+    this.score = 0;
+  }
   create() {
     const width = this.scale.width;
     const height = this.scale.height;
@@ -70,8 +76,60 @@ export default class GameScene extends Phaser.Scene {
       mouse,
       this.handleOverlapLaser,undefined,this
     )
-  }
+    this.coins = this.physics.add.staticGroup()
+    this.spawnCoins()
+    this.physics.add.overlap(
+      this.coins,mouse,this.handleCollectCoin,undefined, this)
 
+    this.scoreLabel = this.add.text(10, 10, "Score: 0" , {
+      fontSize: "24px",
+      color: "#080808",
+      backgroundColor: "#bba86c",
+      shadow:{fill: true, blur:0, offsetY: 0},
+      padding:{left:15, right:15, top:10, bottom:10}
+    })
+    .setScrollFactor(0)
+  }
+  private spawnCoins() 
+  {
+    this.coins.children.each(child => {
+      const coin = child as Phaser.Physics.Arcade.Sprite
+      this.coins.killAndHide(coin)
+      coin.body.enable = false 
+    })
+    
+    const scrollX = this.cameras.main.scrollX;  
+    const rightEdge = scrollX + this.scale.width; 
+
+    let x = rightEdge + 100
+
+    const numCoins = Phaser.Math.Between(1, 20)
+
+    for (let i = 0; i < 10; i++) {
+      const coin = this.coins.get(x, 
+      Phaser.Math.Between(100,this.scale.height -100), 
+      TextureKeys.Coin
+      ) as Phaser.Physics.Arcade.Sprite
+      coin.setActive(true)
+      coin.setVisible(true)
+      const body = coin.body as Phaser.Physics.Arcade.StaticBody 
+      body.enable = true
+      
+      x += coin.width * 1.5
+   
+      body.updateFromGameObject()
+    }    
+  }
+  private handleCollectCoin(
+  obj1: Phaser.GameObjects.GameObject,
+  obj2: Phaser.GameObjects.GameObject)
+  {
+    const coin = obj2 as Phaser.Physics.Arcade.Sprite
+    this.coins.killAndHide(coin)
+    coin.body.enable = false
+    this.score += 1
+    this.scoreLabel.text = `Score: ${this.score}`
+  }
   private handleOverlapLaser(
     obj1: Phaser.GameObjects.GameObject,
     obj2: Phaser.GameObjects.GameObject
@@ -128,6 +186,7 @@ export default class GameScene extends Phaser.Scene {
         this.bookcase1.x + width,
         this.bookcase1.x + width + 800
       );
+      this.spawnCoins()
     }
   }
 
